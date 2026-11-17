@@ -1,0 +1,32 @@
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Зависимости
+node_modules/
+
+# Логи и временные файлы
+logs/
+*.log
+tmp/
+temp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Артефакты сборки
+dist/
+build/
+
+# Сертификаты и ключи
+*.pem
+*.key
+*.crt
